@@ -1,0 +1,157 @@
+body {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 150vh;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+header {
+    background-color: #353535;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.glav {
+    color: #ffffff;
+    font-family: Calibri;
+    transition: 300ms;
+}
+
+.glav:hover {
+    transform: scale(1.2);
+}
+
+.infa {
+    font-size: 20px;
+    font-family: Calibri;
+    color: #515151;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 2em;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: rgb(255, 70, 98);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+.vid {
+    color: #515151;
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+    flex: 1;
+}
+
+footer {
+    background-color: #353535;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: auto;
+}
+
+.sections {
+    padding: 0px 0px 70px;
+    display: flex;
+}
+
+.product {
+    width: 400px;
+    text-align: center;
+    margin: 20px;
+    border: 1px solid #cacaca;
+    padding: 1em;
+    margin-bottom: 1em;
+    transition: transform 0.4s ease-in-out;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.photo {
+    width: 300px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin-top: 0;
+}
+
+.product p {
+    margin: 0.5em 0;
+}
+
+.zaglav {
+    padding-right: 20%;
+}
+
+.order-button {
+    background-color: rgb(255, 70, 98);
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+    background-color: rgb(255, 70, 98);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input,
+form textarea {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: rgb(255, 70, 98);
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    margin-top: 1em;
+    align-self: flex-end;
+}
+
+form button:hover {
+    background-color: #515151;
+}
